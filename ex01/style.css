@@ -1,0 +1,101 @@
+
+/* General Style */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Fixed Navigation Bar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Main Content */
+
+main {
+    padding: 120px 30px 30px;
+}
+
+/* Relative Card */
+
+.card-container {
+    position: relative;
+
+    width: 300px;
+    max-width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Absolute Badge */
+
+.badge {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 10;
+
+    background-color: #ef4444;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Additional Sections */
+
+section {
+    margin-bottom: 50px;
+}
+
+.extra-content {
+    min-height: 900px;
+}
+
+/* Fixed Back-to-Top Button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+
+/* Universal Reset */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Style */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Comparison Layout */
+
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.box-wrapper {
+    margin-bottom: 30px;
+}
+
+/* Shared Box Properties */
+
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #1e293b;
+    margin: 15px 0;
+    background-color: #93c5fd;
+    overflow-wrap: anywhere;
+}
+
+.box p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+/* Content Box */
+
+.content-box {
+    box-sizing: content-box;
+    background-color: #86efac;
+}
+
+/* Border Box */
+
+.border-box {
+    box-sizing: border-box;
+    background-color: #93c5fd;
+}
+

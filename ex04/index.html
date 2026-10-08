@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Box Model</h1>
+
+    <p>
+        Comparing content-box and border-box sizing.
+    </p>
+
+    <h2>Box Sizing Comparison</h2>
+
+    <div class="comparison">
+
+        <div class="box-wrapper">
+            <h3>Content Box</h3>
+
+            <div class="box content-box">
+                <strong>content-box</strong>
+                <p>Width: 200px</p>
+                <p>Padding: 20px</p>
+                <p>Border: 5px</p>
+            </div>
+
+            <p>Total width: 250px</p>
+        </div>
+
+        <div class="box-wrapper">
+            <h3>Border Box</h3>
+
+            <div class="box border-box">
+                <strong>border-box</strong>
+                <p>Width: 200px</p>
+                <p>Padding: 20px</p>
+                <p>Border: 5px</p>
+            </div>
+
+            <p>Total width: 200px</p>
+        </div>
+
+    </div>
+
+    <h2>Understanding the Difference</h2>
+
+    <p>
+        Content-box adds padding and borders outside
+        the declared width.
+    </p>
+
+    <p>
+        Border-box includes padding and borders
+        inside the declared width.
+    </p>
+
+</body>
+</html>
+

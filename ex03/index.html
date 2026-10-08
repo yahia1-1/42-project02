@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors and Opacity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Colors and Opacity</h1>
+    <p>Demonstrating different color formats and transparency.</p>
+
+    <h2>Color Swatch Palette</h2>
+
+    <div class="palette">
+        <div class="swatch named">
+            <h3>Named Color</h3>
+            <p>tomato</p>
+        </div>
+
+        <div class="swatch hex">
+            <h3>HEX Color</h3>
+            <p>#2563EB</p>
+        </div>
+
+        <div class="swatch rgb">
+            <h3>RGB Color</h3>
+            <p>rgb(16, 185, 129)</p>
+        </div>
+
+        <div class="swatch rgba">
+            <h3>RGBA Color</h3>
+            <p>rgba(168, 85, 247, 0.5)</p>
+        </div>
+    </div>
+
+    <h2>Opacity vs RGBA</h2>
+
+    <div class="comparison">
+        <div class="example opacity-box">
+            <h3>Opacity: 0.5</h3>
+            <p>This text also becomes transparent.</p>
+        </div>
+
+        <div class="example rgba-box">
+            <h3>RGBA: 0.5</h3>
+            <p>This text stays fully visible.</p>
+        </div>
+    </div>
+
+    <h2>Explanation</h2>
+
+    <p>
+        Opacity affects the entire element, including
+        its text and child elements.
+    </p>
+
+    <p>
+        RGBA makes only the background color transparent,
+        while the text remains fully visible.
+    </p>
+
+</body>
+</html>
+
